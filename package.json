@@ -1,0 +1,36 @@
+{
+  "name": "ed-camisetas",
+  "version": "1.0.0",
+  "description": "Site profissional de e-commerce para Ed Camisetas - Moda e qualidade para toda família",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build process needed for static site'",
+    "dev": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "ecommerce",
+    "camisetas",
+    "moda",
+    "roupas",
+    "loja-online",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Ed Camisetas",
+  "license": "MIT",
+  "homepage": "https://edcamisetas.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usuario/ed-camisetas-site.git"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
